@@ -250,6 +250,9 @@ nav.navbar ul li a:hover {
 #services h1{
     margin-bottom: 30px;
 }
+#services h4{
+    margin: 20px;
+}
 #services .col-md-4{
     margin-top: 40px;
 }
