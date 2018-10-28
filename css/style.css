@@ -36,6 +36,11 @@ nav{
    
 }
 
+.navbar-brand img{
+    height:50px;
+    padding-bottom: 15px;
+}
+
 nav a{
     font-size: 15px
 }
@@ -343,3 +348,4 @@ nav.navbar ul li a:hover {
 /* ---------------------
 End Of Index Page
 ------------------------ */
+
