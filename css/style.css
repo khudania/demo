@@ -132,13 +132,7 @@ nav.navbar ul li a:hover {
     padding-bottom: 2rem;
 }
 
-.btn{
-    background: #34B3A0;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 1rem 2rem;
-    text-decoration: none;
-}
+
 
 /* End Of Banner Video */
 
@@ -299,6 +293,14 @@ nav.navbar ul li a:hover {
 
 /* End Of Quote Section */
 
+/* Contact */
+#contact .panel{
+    padding: 20px 10px;
+}
+#contact form{
+    text-align: justify
+}
+/* End Of Contact */
 
 /* ------Media Queries------- */
 
