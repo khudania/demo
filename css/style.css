@@ -289,12 +289,12 @@ nav.navbar ul li a:hover {
 /* Quote Section */
 #quote{
     background-image: repeating-linear-gradient(to bottom right, #ffd900 10%, #fff 20%);
-    height: 300px;
+    
     font-size: 30px
 }
 
 #quote h3{
-    margin-top: 100px;
+    padding: 120px 0;
 }
 
 /* End Of Quote Section */
