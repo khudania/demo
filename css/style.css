@@ -282,6 +282,16 @@ nav.navbar ul li a:hover {
     
     
 }
+#services .panel:hover{
+    background: #333;
+    color: #ffd900;
+    border: #ffd900 !important;
+    
+}
+
+#services .panel:hover .fa{
+    color: #ffd900;
+}
 
 /* End OF Services */
 
