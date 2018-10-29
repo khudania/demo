@@ -285,7 +285,7 @@ nav.navbar ul li a:hover {
 #services .panel:hover{
     background: #333;
     color: #ffd900;
-    border: #ffd900 !important;
+    border-color: #ffd900 !important;
     
 }
 
