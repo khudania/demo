@@ -9,6 +9,9 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+        <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+
+
     <title>Admin DashBoard</title>
 </head>
 
@@ -41,35 +44,56 @@
     <!-- End Of Navbar -->
 
     <!--Main Section -->
-    <section id="messagedetails" class="section">
-        <h3>Admin Dashboard</h3>
+    <section id="blog" class="section">
+        <h3 style="text-align:center">Add Blog</h3>
+        <hr>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <table class="table table-bordered table-responsive">
-                        <tr class="warning">
-                            <th>Name</th>
-                            <th>Contact Number</th>
-                            <th>Mail Id</th>
-                            <th>Message</th>
-                        </tr>
-                        <tr>
-                            <td>Himanshu</td>
-                            <td>9090909090</td>
-                            <td>himanshu@fametronix.in</td>
-                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti temporibus sit atque
-                                doloremque doloribus voluptatibus error provident cupiditate sed voluptates quia illum
-                                quam impedit itaque eveniet laborum quos, molestias eum praesentium earum labore vel ut
-                                adipisci. Assumenda eveniet, hic, iure quam eos fuga corporis consequuntur dignissimos
-                                officiis at ipsa quibusdam?</td>
-                        </tr>
+            <form>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <label for="title">Title Of Blog</label>
+                            <input type="text" class="form-control" id="title" placeholder="Enter Title Of Blog">
+                        </div>
+                        <div class="form-group">
+                            <label for="tag">Tag Line</label>
+                            <input type="text" class="form-control" id="tag" placeholder="Enter Tag line Of Blog">
+                        </div>
+                        <div class="form-group">
+                            <label for="author">Author</label>
+                            <input type="text" class="form-control" id="author" placeholder="Enter Author Of Blog">
+                        </div>
+                        <div class="form-group">
+                                <label for="blog_post">Blog</label>
+                                <textarea name="editor1" class="form-control" id="blog_post" max="500"></textarea>
+                              </div>
+                          
 
-                    </table>
+
+                    </div>
+                    <div class="col-md-5">
+                            <div class="form-group">
+                                    <label for="image">Add Blog Image</label>
+                                    <input class="form-control" type="file" id="image">
+                                    <p class="help-block">Only JPEG, PNG, Max-size: 5MB</p>
+                                  </div>
+
+                                  <button type="submit" class="btn btn-warning">Submit</button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
+
     </section>
     <!-- End of Main Section -->
+
+
+     <!--CKEditor Script-->
+     <script>
+            CKEDITOR.replace('editor1');
+            CKEDITOR.replace('editor2');
+        </script>
+    
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -1,0 +1,11 @@
+.section{
+    padding-top: 30px;
+}
+
+#messagedetails h3{
+    text-align: center;
+}
+
+#messagedetails th, td{
+    text-align: center;
+}
